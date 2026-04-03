@@ -50,6 +50,18 @@
 - No attribution lines (no Co-Authored-By, no Signed-off-by)
 - Imperative mood (e.g., "add rate limiter", "fix validation bug")
 
+### Commit Prefixes
+
+All commit messages must use a prefix in `[]`:
+
+| Prefix    | Use for                           | Example                                |
+|-----------|-----------------------------------|----------------------------------------|
+| `[skill]` | Adding or modifying a skill       | `[skill] add python 3.6 skill`         |
+| `[docs]`  | Documentation changes             | `[docs] update README`                 |
+| `[fix]`   | Fixing errors in existing content | `[fix] correct java 8 Optional example`|
+| `[repo]`  | Repo config and settings          | `[repo] update .gitignore`             |
+| `[chore]` | Maintenance tasks                 | `[chore] clean up directory structure` |
+
 ## Pull Requests
 
 - No attribution lines (no Co-Authored-By, no Signed-off-by, no "Generated with" footers)

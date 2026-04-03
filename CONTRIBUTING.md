@@ -71,7 +71,18 @@ Before submitting:
 
 - One-line commit messages in imperative mood
 - No attribution lines (no Co-Authored-By, no Signed-off-by)
-- Examples: `add python 3.6 skill`, `fix java 8 Optional example`
+
+### Commit Prefixes
+
+All commit messages must use a prefix in `[]`:
+
+| Prefix    | Use for                           | Example                                |
+|-----------|-----------------------------------|----------------------------------------|
+| `[skill]` | Adding or modifying a skill       | `[skill] add python 3.6 skill`         |
+| `[docs]`  | Documentation changes             | `[docs] update README`                 |
+| `[fix]`   | Fixing errors in existing content | `[fix] correct java 8 Optional example`|
+| `[repo]`  | Repo config and settings          | `[repo] update .gitignore`             |
+| `[chore]` | Maintenance tasks                 | `[chore] clean up directory structure` |
 
 ## Pull Requests
 
